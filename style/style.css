@@ -23,7 +23,7 @@ body{
 li{
     list-style: none;
 }
-a{
+a, .colophon-text{
     text-decoration: none;
     color: white;
     font-family: var(--headerText);
@@ -158,6 +158,24 @@ a{
     background-color: var(--colophon);
     border:var(--colophon);
 }
+
+.position-div{
+    width: 100%;
+    height: 600px;
+}
+.carousel-img{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.shirt-name{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+
+
 /* end of top main */
 .top-section-boxes{
     /* border: 1px solid red; */
@@ -227,6 +245,9 @@ a{
     margin-right: 15px;
 }
 
+.item-img{
+    width: 100%;
+}
 /* end of Main */
 
 .footer-section{
@@ -251,3 +272,15 @@ a{
     padding: 0;
     text-align: center;
 }
+@media (max-width:599px){
+    .buy-box-mid{
+        width: 350px;
+    }
+}
+@media (max-width:599px){
+    .buy-box-top{
+        width: 350px;
+    }
+}
+    
+
